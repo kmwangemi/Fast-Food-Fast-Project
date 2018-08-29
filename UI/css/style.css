@@ -120,10 +120,6 @@ h2
 	
 }
 
-
-
-
-
 .loginBox
 {
 	position: absolute;
@@ -300,9 +296,7 @@ h1
 	background: #efed40;
 	color: #262626;
 }
-		
-
-		
+				
 #frmRegister fieldset {
 	position: fixed;
 	top: 55%;
@@ -369,7 +363,6 @@ td {
 .jumbo h2 {
 	padding: 80px 20px;
 }
-
 
 #frmRegister2 {
 	position: fixed;
