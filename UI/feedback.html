@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FAST-FOOD-FAST APP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+	<header id="header" class="alt">
+        <h1> FAST-FOOD-FAST </h1>
+        <nav id="nav">
+            <ul>
+                    <li><a href="admin.html">Home</a></li>
+                <li><a href="index.html">Log out</a></li>
+            </ul>
+        </nav>
+    </header> 
+
+    <div id="regForm">
+        <form id="frmRegister" name="frmRegister" method="post" action="regComplete.htm">
+            <fieldset>
+                <p>
+                    <label for="fName">First Name:</label>
+                    <input name="fName" type="text" class="text" id="fName" tabindex="40" />
+                </p>   
+                <p>
+                    <label for="lName">Last Name:</label>
+                    <input name="lName" type="text" class="text" id="lName" tabindex="50" />
+                </p>
+                <p> Choose the type of order
+                    <select name="region" id="region" tabindex="60">
+                        <option value="usae" selected="selected">Drinks</option>
+                        <option value="ha">Snacks</option>
+                        <option value="ha">Drinks & Snacks</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="comments">Describe the order briefly:</label>
+                    <br />
+                    <textarea name="comments" id="comments" cols="45" rows="5" tabindex="140"></textarea>
+                </p>
+                <p>
+                    <input type="submit" name="submit" id="submit" value="Update" tabindex="160" />
+                    <input type="submit" name="submit" id="submit" value="Delete" tabindex="160" />
+                </p>         
+            </fieldset>
+        </form>
+    </div>
+        
+    </br>
+    </br>
+    </br>
+    </br>
+
+    </div>
+            
+    <div id="regForm">
+        <form id="frmRegister2" name="frmRegister" method="post" action="regComplete.htm">
+            <p>
+                <label for="comments">Please provide your feedback here:</label>
+                <br />
+                <textarea name="comments" id="comments" cols="45" rows="5" tabindex="140"></textarea>
+            </p>
+            <p>
+                <input type="submit" name="submit" id="submit" value="Submit" tabindex="160" />
+                <input type="submit" name="submit" id="submit" value="Complete" tabindex="160" />
+                <br />
+            </p>
+         </form>
+    </div>
+</body>
+</html>

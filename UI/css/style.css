@@ -373,14 +373,15 @@ td {
 
 #frmRegister2 {
 	position: fixed;
-	top: 65%;
-	left: 82%;
+	top: 90%;
+	left: 81%;
 	transform: translate(-50%,-50%);
 	width: 320px;
 	height: 220px;
 	padding: 50px 20px;
 	color: #fff;
 }
+
 
 #frmRegister2 input[type="submit"]
 {
