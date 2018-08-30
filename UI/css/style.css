@@ -120,10 +120,6 @@ h2
 	
 }
 
-
-
-
-
 .loginBox
 {
 	position: absolute;
@@ -187,7 +183,6 @@ h2
 	text-decoration: none;
 }
 
-
 .form-wrap
 {
 	position: fixed;
@@ -200,6 +195,7 @@ h2
 	box-sizing: border-box;
 	background: rgba(0,0,0,.5);
 }
+
 h1
 {
 	margin-bottom: 20px;
@@ -207,6 +203,7 @@ h1
 	color: #efed40;
 	text-align: center;
 }
+
 .form-wrap input
 {
 	width: 100%;
@@ -219,6 +216,7 @@ h1
 	font-size: 16px;
 	color: #fff;
 }
+
 .form-wrap input[type="text"],
 .form-wrap input[type="password"]
 {
@@ -230,6 +228,7 @@ h1
 	color: #fff;
 	font-size: 16px;
 }
+
 .form-wrap input[type="submit"]
 {
 	border: none;
@@ -241,12 +240,12 @@ h1
 	cursor: pointer;
 	border-radius: 20px;
 }
+
 .form-wrap input[type="submit"]:hover
 {
 	background: #efed40;
 	color: #262626;
 }
-
 
 .form2
 {
@@ -273,6 +272,7 @@ h1
 	font-size: 16px;
 	color: #fff;
 }
+
 .form2 input[type="text"],
 .form2 input[type="password"]
 {
@@ -284,6 +284,7 @@ h1
 	color: #fff;
 	font-size: 16px;
 }
+
 .form2 input[type="submit"]
 {
 	border: none;
@@ -295,14 +296,13 @@ h1
 	cursor: pointer;
 	border-radius: 20px;
 }
+
 .form2 input[type="submit"]:hover
 {
 	background: #efed40;
 	color: #262626;
 }
-		
-
-		
+				
 #frmRegister fieldset {
 	position: fixed;
 	top: 55%;
@@ -315,10 +315,10 @@ h1
 	background: rgba(0,0,0,.5);
 }
 
-
 #frmRegister input.text {
 	width: 200px;
 }
+
 #frmRegister input.text:focus , #mainContent #frmRegister textarea:focus{
 	background: #EDDAB1;
 	border: 1px solid #9D6124;
@@ -341,12 +341,12 @@ h1
 	cursor: pointer;
 	border-radius: 20px;
 }
+
 #frmRegister input[type="submit"]:hover
 {
 	background: #efed40;
 	color: #262626;
 }
-
 
 table {
 	position: fixed;
@@ -357,7 +357,6 @@ table {
 	padding: 40px 20px;
 	box-sizing: border-box;
 	background: #eee;
-
 }
 
 th,
@@ -369,7 +368,6 @@ td {
 .jumbo h2 {
 	padding: 80px 20px;
 }
-
 
 #frmRegister2 {
 	position: fixed;
@@ -393,6 +391,7 @@ td {
 	cursor: pointer;
 	border-radius: 20px;
 }
+
 #frmRegister2 input[type="submit"]:hover
 {
 	background: #efed40;
