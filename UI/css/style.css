@@ -89,6 +89,7 @@ body
 	top: calc(-100px/2);
 	left: calc(50% - 50px);
 }
+
 h2
 {
 	margin: 0;
@@ -96,7 +97,6 @@ h2
 	color: #efed40;
 	text-align: center;
 }
-
 
 /* --------- MAIN CONTENT STYLES -------------*/
 
@@ -108,16 +108,14 @@ h2
 	height: 420px;
 	top: 60%;
 	left: 20%;
-	transform: translate(-5%,-2%);
-	
+	transform: translate(-5%,-2%);	
 }
 
 #mainContent p
 {
 	text-align: left;
 	color: white;
-	font-size: 20px;
-	
+	font-size: 20px;	
 }
 
 .loginBox
@@ -132,6 +130,7 @@ h2
 	box-sizing: border-box;
 	background: rgba(0,0,0,.5);
 }
+
 .loginBox p
 {
 	margin: 0;
@@ -139,11 +138,13 @@ h2
 	font-weight: bold;
 	color: #fff;
 }
+
 .loginBox input
 {
 	width: 100%;
 	margin-bottom: 20px;
 }
+
 .loginBox input[type="text"],
 .loginBox input[type="password"]
 {
@@ -155,10 +156,12 @@ h2
 	color: #fff;
 	font-size: 16px;
 }
+
 ::placeholder
 {
 	color: rgba(255,255,255,.5);
 }
+
 .loginBox input[type="submit"]
 {
 	border: none;
@@ -170,11 +173,13 @@ h2
 	cursor: pointer;
 	border-radius: 20px;
 }
+
 .loginBox input[type="submit"]:hover
 {
 	background: #efed40;
 	color: #262626;
 }
+
 .loginBox a
 {
 	color: #fff;
@@ -371,8 +376,8 @@ td {
 
 #frmRegister2 {
 	position: fixed;
-	top: 65%;
-	left: 82%;
+	top: 90%;
+	left: 81%;
 	transform: translate(-50%,-50%);
 	width: 320px;
 	height: 220px;
@@ -396,4 +401,15 @@ td {
 {
 	background: #efed40;
 	color: #262626;
+}
+
+button {
+    border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	background: #8B4513;
+	cursor: pointer;
+	border-radius: 20px;
 }
