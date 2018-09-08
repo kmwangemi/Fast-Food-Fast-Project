@@ -1,10 +1,23 @@
 from flask import Flask
+import os
+from config import app_config
 
 # Initialize the app
-app = Flask(__name__, instance_relative_config=True)
+app = Flask(__name__)
 
-# Load the views
-from app import views
 
-# Load the config file
-app.config.from_object('config')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

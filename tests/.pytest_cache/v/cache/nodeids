@@ -1,0 +1,5 @@
+[
+  "test_orders.py::OrderstestCase::test_cannot_create_duplicate", 
+  "test_orders.py::OrderstestCase::test_cannot_create_with_name_only", 
+  "test_orders.py::OrderstestCase::test_order_can_create_successfully"
+]
